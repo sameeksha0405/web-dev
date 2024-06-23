@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backpic1{
+    background-image: url(images/children2.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text1{
+    
+    padding-top: 2px;
+    padding-left: 90%;
+
+}
+.text1 button{
+    background-color: gold;
+    padding :10px;
+    border-radius: 4px;
+    border-color:azure;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1,0.1);
+    color: azure;
+    font-weight: 100px;
+    transition: 0.2s ease-in-out;
+}
+.box_1{
+    background-color: gold;
+    padding: 20px;
+    
+}
+.text1 button:hover{
+    transform: scale(1.04);
+    box-shadow: 4px 3px 5px rgba(1, 1, 1,0.2);
+    transition: 0.2s ease-in-out;
+
+
+}
+.text_contain{
+   color: azure;
+    font-size: 50px;
+    font-weight: 400px;
+   text-align: center;
+}
+.info{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+     gap:10px;
+     margin: 25px auto;
+     max-width: 1100px;
+}
+.card{
+    border: 2px solid darkgrey;
+    border-radius: 4px;
+    box-shadow:3px 5px 5px rgba(1, 1, 1,0.2) ;
+    max-width: 320px;
+    height: 400px;
+    transition: 0.2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow:3px 5px 5px rgba(1, 1, 1,0.3) ;
+    transition: 0.2s ease-in-out;
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_content{
+    padding: 10px;
+}
+.image_container{
+    padding: 5px;
+}
+.donate_b{
+    align-content: center;
+}
+ .donate_button button{
+    background-color: gold;
+    border: 2px solid azure;
+    border-radius: 4px;
+    padding: 10px;
+    color: azure;
+    font-size: 20px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1,0.1);
+    transition: 0,2s ease-in-out;
+    
+ }
+ .donate_button{
+    
+    padding-left: 40%;
+ }
+ .donate_button button:hover{
+    transform: scale(1.04);
+    box-shadow: 4px 3px 5px rgba(1, 1, 1,0.3);
+    transition: 0,2s ease-in-out;
+
+    
+
+ }
+ .bottom_sec{
+     display: flex;
+     
+ }
+ 
+ .about ,.contact{
+    min-width: 800px;
+    background-color: gold;
+    color: azure;
+    border: 2px solid azure;
+    padding: 10px;
+    margin:20px 0;
+    height: 300px;
+    font-size: 20px;
+
+ }
+ 
